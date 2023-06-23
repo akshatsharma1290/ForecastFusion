@@ -1,0 +1,15 @@
+@tailwind base;
+body{
+    background-color:#1e293b;
+}
+.forecastItems::-webkit-scrollbar{
+    display: none
+}
+
+.forecastItems{
+    -ms-overflow-style: none;  
+    scrollbar-width: none;
+}
+
+@tailwind components;
+@tailwind utilities;
